@@ -1,0 +1,30 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 4d6f5d5d89eb9eac37009c15a3329f7598b5d229b7cd29ae6a688f2de9ae8a77
+
+name:           pgoak2
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/pgoak2#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable pgoak2
+  main-is: Main.hs
+  other-modules:
+      Paths_pgoak2
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
